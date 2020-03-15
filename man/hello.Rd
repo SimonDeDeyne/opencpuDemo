@@ -1,12 +1,13 @@
 \name{hello}
 \alias{hello}
-\title{Hello, World!}
+\title{Hello World}
 \usage{
-hello()
+  hello(myname = "")
+}
+\arguments{
+  \item{myname}{your name. Required.}
 }
 \description{
-Prints 'Hello, world!'.
+  Basic hello world function to be called from the demo app
 }
-\examples{
-hello()
-}
+
