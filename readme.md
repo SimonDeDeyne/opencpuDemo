@@ -21,3 +21,5 @@ To run the app in your local R session:
     library(opencpu)
     opencpu$browse("/library/appdemo/www")
 
+
+https://stackoverflow.com/questions/46964910/opencpu-webhook-for-private-github-repo-doesnt-work
