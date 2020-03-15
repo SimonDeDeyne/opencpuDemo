@@ -1,11 +1,11 @@
 Package: opencpuDemo
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Test the Opencpu on DigitalOcean
 Version: 0.1.0
 Author: Simon De Deyne
 Maintainer: Simon De Deyne <simon2d@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: None
+License: GPL
 Encoding: UTF-8
 LazyData: true
