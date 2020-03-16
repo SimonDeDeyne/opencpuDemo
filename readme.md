@@ -23,3 +23,5 @@ To run the app in your local R session:
 
 
 https://stackoverflow.com/questions/46964910/opencpu-webhook-for-private-github-repo-doesnt-work
+
+Build successful but error when sending email to "SimonDeDeyne"<simon2d@gmail.com> (bcc: ) (check SMTP server): Failed to connect to localhost port 25: Connection refused
