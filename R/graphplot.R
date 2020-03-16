@@ -5,7 +5,7 @@
 #' @export
 #' @param n numer of random values 
 #' @param dist one of "normal" or "uniform".
-randomplot <- function(n, dist=c("normal", "uniform")){
+graphplot <- function(n, dist=c("normal", "uniform")){
   library(ggplot2)
   #input validation
   dist <- match.arg(dist)
