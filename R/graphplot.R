@@ -8,16 +8,16 @@
 graphplot <- function(n, dist=c("normal", "uniform")){
   library(ggplot2)
   #input validation
-  dist <- match.arg(dist)
-  stopifnot(n < 1e6)
+  #dist <- match.arg(dist)
+  #stopifnot(n < 1e6)
   
-  if(dist == "normal"){
+  #if(dist == "normal"){
     #hist(rnorm(n))
-  }
+  #}
   
-  if(dist == "uniform"){
+  #if(dist == "uniform"){
     #hist(runif(n))
-  }
+  #}
   
   X = data.frame(x = runif(10),y = runif(10))
   ggplot(X,aes(x=x,y=y)) + geom_point()
