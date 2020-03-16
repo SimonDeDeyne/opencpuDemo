@@ -20,8 +20,9 @@ graphplot <- function(n, dist=c("normal", "uniform")){
   #}
   
   X = data.frame(x = runif(10),y = runif(10))
-  ggplot(X,aes(x=x,y=y)) + geom_point()
+  p = ggplot(X,aes(x=x,y=y)) + geom_point()
+  p
   
   #return nothing
-  invisible();  
+  #invisible();  
 }
