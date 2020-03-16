@@ -21,7 +21,7 @@ graphplot <- function(n, dist=c("normal", "uniform")){
   
   X = data.frame(x = runif(10),y = runif(10))
   p = ggplot(X,aes(x=x,y=y)) + geom_point()
-  p
+  print(p)
   
   #return nothing
   #invisible();  
